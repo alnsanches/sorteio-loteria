@@ -17,4 +17,4 @@ Projeto simples e interativo em HTML, CSS e JavaScript para checar se os número
 
 - HTML5
 - CSS3
-- JavaScript puro (Vanilla JS)
+- JavaScript 
