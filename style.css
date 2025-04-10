@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: linear-gradient(to right, #6dd5ed, #2193b0);
+    color: #fff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+header {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #ffffff;
+    text-shadow: 2px 2px #00000033;
+}
+
+section {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 30px;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 700px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
+}
+
+h3 {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    color: #ffea00;
+}
+
+h5 {
+    margin-bottom: 10px;
+    font-weight: normal;
+}
+
+.numeros-sorteados,
+.numeros-apostados {
+    margin-bottom: 30px;
+}
+
+input[type="number"] {
+    width: 90px;
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.botoes-container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.verificar-btn {
+    background-color: #ffea00;
+    color: #000;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin: 10px;
+    transition: background-color 0.3s;
+}
+
+.verificar-btn:hover {
+    background-color: #f5c400;
+}
+
+#resposta {
+    background-color: #ffffffcc;
+    color: #000;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.1rem;
+    min-height: 50px;
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #ddd;
+}

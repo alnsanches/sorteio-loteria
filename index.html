@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sorteio Loteria - Resultado dos Apostadores</title>
+</head>
+    <body>
+        <header>
+            <h1>Verificador de Apostas - Loteria</h1>
+        </header>
+    
+        <section>
+            <div class="numeros-sorteados">
+            <h3>NÚMEROS SORTEADOS</h3>
+            <h5>Digite os números sorteados:</h5>
+            <input type="number" name="numSorteado1" class="numSort" id="numSorteado1" placeholder="Digite o número" min="1" max="60">
+            <input type="number" name="numSorteado2" class="numSort" id="numSorteado2" placeholder="Digite o número" min="1" max="60">
+            <input type="number" name="numSorteado3" class="numSort" id="numSorteado3" placeholder="Digite o número" min="1" max="60">
+            <input type="number" name="numSorteado4" class="numSort" id="numSorteado4" placeholder="Digite o número" min="1" max="60">
+            <input type="number" name="numSorteado5" class="numSort" id="numSorteado5" placeholder="Digite o número" min="1" max="60">
+            <input type="number" name="numSorteado6" class="numSort" id="numSorteado6" placeholder="Digite o número" min="1" max="60">
+            </div>
+
+            <div class="numeros-apostados">
+                <h3>NÚMEROS APOSTADOS</h3>
+                <h5>Digite os números da sua aposta:</h5>
+                <input type="number" name="meuNum1" class="meuNum" id="meuNumero1" placeholder="Digite o número" min="1" max="60">
+                <input type="number" name="meuNum2" class="meuNum" id="meuNumero2" placeholder="Digite o número" min="1" max="60">
+                <input type="number" name="meuNum3" class="meuNum" id="meuNumero3" placeholder="Digite o número" min="1" max="60">
+                <input type="number" name="meuNum4" class="meuNum" id="meuNumero4" placeholder="Digite o número" min="1" max="60">
+                <input type="number" name="meuNum5" class="meuNum" id="meuNumero5" placeholder="Digite o número" min="1" max="60">  
+                <input type="number" name="meuNum6" class="meuNum" id="meuNumero6" placeholder="Digite o número" min="1" max="60">                  
+            </div>
+
+            <div class="botoes-container">
+                <input type="button" value="Verificar" id="btn-verificar" class="verificar-btn" onclick="verificar()">
+                <input type="button" value="Nova Checagem" id="btn-resetar" class="verificar-btn" onclick="novaChecagem()">
+            </div>
+            
+            <div id="resposta">Seu resultado irá aparecer aqui</div>
+
+            <footer>
+                <p>&copy; Criado por Aline Santos Sanches</p>
+            </footer>
+        </section>
+
+        
+        <script src="script.js"></script>
+
+</body>
+</html>
